@@ -1,130 +1,173 @@
 [
   {
     "id": 1,
-    "name": "Projeto de Biologia Espacial",
-    "description": "Investigar os efeitos da microgravidade no crescimento de plantas",
+    "name": "Crescimento de Plantas em Gravidade Zero",
+    "description": "Este projeto tem como objetivo entender como as plantas crescem em um ambiente de microgravidade. Serão plantadas diferentes espécies de plantas em condições controladas na Estação Espacial Internacional (ISS) e monitoradas quanto ao seu crescimento e desenvolvimento.",
     "country": "BR",
     "status": "Intacto",
-    "imageUrl": "https://source.unsplash.com/random/300x200"
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": ["Plantas", "Solo", "Água"]
   },
   {
     "id": 2,
-    "name": "Projeto de Física de Partículas",
-    "description": "Estudar a interação de partículas subatômicas em ambiente de microgravidade",
+    "name": "Comportamento de Abelhas em Ambientes de Microgravidade",
+    "description": "Este projeto tem como objetivo entender como as abelhas se comportam em um ambiente de microgravidade. Serão usadas abelhas da espécie Apis mellifera que serão monitoradas quanto ao seu comportamento e habilidade de voar em um ambiente sem gravidade.",
     "country": "US",
-    "status": "Danificado",
-    "imageUrl": "https://source.unsplash.com/random/300x200"
+    "status": "Intacto",
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": ["Abelhas", "Colmeia", "Câmera"]
   },
   {
     "id": 3,
-    "name": "Projeto de Astronomia",
-    "description": "Observar e registrar eventos astronômicos a partir da ISS",
+    "name": "Detector Magnético de Partículas Espaciais",
+    "description": "Este projeto tem como objetivo construir um detector magnético de partículas espaciais na Estação Espacial Internacional. O detector será usado para estudar o fluxo de partículas carregadas no espaço e ajudar a entender a origem e evolução do universo. Ele será construído usando tecnologia de supercondutores de alta temperatura.",
     "country": "DE",
     "status": "Intacto",
-    "imageUrl": "https://source.unsplash.com/random/300x200"
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": ["Detector de partículas", "Supercondutor", "Computador"]
   },
   {
     "id": 4,
-    "name": "Projeto de Medicina Espacial",
-    "description": "Investigar os efeitos da microgravidade na saúde dos astronautas",
+    "name": "Estudo de Raios Cósmicos de Alta Energia",
+    "description": "Este projeto tem como objetivo estudar raios cósmicos de alta energia na Estação Espacial Internacional. O experimento envolverá a detecção de partículas carregadas no espaço e a análise de sua energia e trajetória. Os dados coletados ajudarão a entender melhor a física de partículas e a origem dos raios cósmicos.",
     "country": "JP",
-    "status": "Danificado",
-    "imageUrl": "https://source.unsplash.com/random/300x200"
+    "status": "Avariado",
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": ["Detector de partículas", "Computador"]
   },
   {
     "id": 5,
-    "name": "Projeto de Engenharia Aeroespacial",
-    "description": "Desenvolver novas tecnologias para a exploração espacial",
+    "name": "Teste de Colisão de Partículas",
+    "description": "Este projeto tem como objetivo testar a colisão de partículas subatômicas na Estação Espacial Internacional. O experimento envolverá a aceleração de partículas subatômicas em direção a um alvo e a análise dos resultados da colisão. Os dados coletados ajudarão a entender melhor a física de partículas e a origem do universo.",
     "country": "FR",
     "status": "Intacto",
-    "imageUrl": "https://source.unsplash.com/random/300x200"
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": ["Acelerador de partículas", "Alvo", "Computador"]
   },
   {
     "id": 6,
-    "name": "Projeto de Microgravidade",
-    "description": "Realizar experimentos de física em ambiente de ausência de gravidade",
+    "name": "Sono em gravidade zero",
+    "description": "Este projeto tem como objetivo estudar o efeito da microgravidade no sono dos astronautas da ISS. Os participantes serão monitorados através de dispositivos de registro de sono e atividade cerebral. Também será avaliado o impacto de fatores como luz e ruído ambiente na qualidade do sono dos astronautas. Os dados coletados serão analisados para ajudar a melhorar as condições de sono na ISS e em futuras missões espaciais.",
     "country": "IT",
-    "status": "Danificado",
-    "imageUrl": "https://source.unsplash.com/random/300x200"
+    "status": "Intacto",
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": [
+      "Dispositivo de registro de sono",
+      "Dispositivo de registro de atividade cerebral"
+    ]
   },
   {
     "id": 7,
-    "name": "Projeto de Geociências Espaciais",
-    "description": "Estudar a formação de rochas e minerais em condições de microgravidade",
+    "name": "Efeitos de estímulos luminosos na regulação do sono.",
+    "description": "Este projeto investiga o impacto de estímulos luminosos na regulação do sono dos astronautas na ISS. Os participantes serão expostos a diferentes tipos de luz durante o dia e a noite, e a qualidade do sono será monitorada por meio de dispositivos de registro de sono e atividade cerebral. Os resultados deste estudo podem ajudar a melhorar as condições de sono na ISS e em futuras missões espaciais, além de ter implicações para a saúde humana em ambientes terrestres.",
     "country": "CH",
     "status": "Intacto",
-    "imageUrl": "https://source.unsplash.com/random/300x200"
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": [
+      "Dispositivo de registro de sono",
+      "Dispositivo de registro de atividade cerebral"
+    ]
   },
   {
     "id": 8,
-    "name": "Projeto de Metereologia Espacial",
-    "description": "Monitorar e estudar as condições climáticas no espaço",
+    "name": "Estudo do Crescimento de Fungos em Ambientes de Microgravidade",
+    "description": "Este projeto tem como objetivo entender como os fungos crescem em um ambiente de microgravidade. Serão plantados diferentes tipos de fungos em condições controladas na Estação Espacial Internacional (ISS) e monitorados quanto ao seu crescimento e desenvolvimento.",
     "country": "RU",
-    "status": "Danificado",
-    "imageUrl": "https://source.unsplash.com/random/300x200"
+    "status": "Intacto",
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": ["Fungos", "Solo", "Água"]
   },
   {
     "id": 9,
-    "name": "Projeto de Química Espacial",
-    "description": "Investigar reações químicas em ambiente de microgravidade",
+    "name": "Cronotipos em gravidade zero",
+    "description": ".Este projeto tem como objetivo estudar como a microgravidade afeta os cronotipos dos astronautas, ou seja, a preferência de cada pessoa por dormir e acordar em horários específicos. Os participantes serão monitorados através de dispositivos de registro de sono e atividade cerebral. Os resultados deste estudo podem ajudar a otimizar o planejamento de horários de trabalho e sono para astronautas em futuras missões",
     "country": "AU",
     "status": "Intacto",
-    "imageUrl": "https://source.unsplash.com/random/300x200"
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": [
+      "Dispositivo de registro de sono",
+      "Dispositivo de registro de atividade cerebral"
+    ]
   },
   {
     "id": 10,
-    "name": "Projeto de Estudos de Radiação",
-    "description": "Analisar os efeitos da radiação no espaço e desenvolver técnicas de proteção",
+    "name": "Estudo da resistência de materiais de satélites em ambiente de microgravidade",
+    "description": "O projeto tem como objetivo estudar a resistência de materiais utilizados em satélites em ambiente de microgravidade. A ideia é analisar como os materiais se comportam em situações extremas de temperatura e pressão, bem como em caso de impacto com outros objetos no espaço.",
     "country": "ES",
     "status": "Intacto",
-    "imageUrl": "https://source.unsplash.com/random/300x200"
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": ["Satélite", "Materiais compósitos"]
+  },
+  {
+    "id": 11,
+    "name": "Desenvolvimento de tecnologia de micro propulsão para satélites",
+    "description": "O projeto tem como objetivo desenvolver uma tecnologia de micro propulsão para satélites que possa ser utilizada em ambiente de microgravidade. A ideia é criar um sistema de propulsão que permita ajustar a posição do satélite no espaço sem a necessidade de utilizar combustível em grandes quantidades.",
+    "country": "IN",
+    "status": "Avariado",
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": ["Satélite", "Motor de propulsão"]
   },
   {
     "id": 12,
-    "name": "Projeto de Tecnologia Espacial",
-    "description": "Desenvolver tecnologias avançadas para suporte à vida no espaço",
+    "name": "Teste de materiais compósitos para painéis solares de satélites",
+    "description": "O projeto tem como objetivo testar a eficiência de materiais compósitos para painéis solares de satélites em ambiente de microgravidade. A ideia é analisar a resistência dos materiais à radiação solar, além de avaliar sua durabilidade e eficiência em gerar energia.",
     "country": "IN",
     "status": "Intacto",
-    "imageUrl": "https://source.unsplash.com/random/300x200"
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": ["Satélite", "Painel solar", "Materiais compósitos"]
   },
   {
     "id": 13,
-    "name": "Projeto de Ecologia Espacial",
-    "description": "Estudar a interação dos seres vivos com o ambiente espacial",
-    "country": "GB",
-    "status": "Danificado",
-    "imageUrl": "https://source.unsplash.com/random/300x200"
+    "name": "Efeitos da Radiação de Alta Energia na Saúde Humana",
+    "description": "O objetivo deste projeto é estudar os efeitos da radiação de alta energia na saúde humana, com foco na exposição dos astronautas da Estação Espacial Internacional. Serão realizados estudos em amostras de sangue, saliva e urina para avaliar o impacto da radiação na saúde dos astronautas. O estudo também avaliará a eficácia de contramedidas como protetores contra radiação para minimizar os efeitos nocivos da radiação.",
+    "country": "US",
+    "status": "Intacto",
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": []
+  },
+  {
+    "id": 14,
+    "name": "Desenvolvimento de Medicamentos em Gravidade Reduzida",
+    "description": "O objetivo deste projeto é estudar como a gravidade reduzida pode afetar o processo de desenvolvimento de medicamentos. Serão realizados testes em células e microrganismos no ambiente de microgravidade da Estação Espacial Internacional, com o objetivo de identificar possíveis benefícios e limitações no processo de desenvolvimento de medicamentos. O estudo também avaliará a segurança e eficácia de medicamentos desenvolvidos no espaço em comparação com aqueles desenvolvidos na Terra.",
+    "country": "KR",
+    "status": "Intacto",
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": []
   },
   {
     "id": 15,
-    "name": "Projeto de Estudos do Sono",
-    "description": "Analisar os padrões de sono e a qualidade do descanso dos astronautas na ISS",
-    "country": "KR",
-    "status": "Danificado",
-    "imageUrl": "https://source.unsplash.com/random/300x200"
+    "name": "Sistema de Diagnóstico Remoto para Uso em Ambientes de Gravidade Reduzida",
+    "description": "O objetivo deste projeto é desenvolver um sistema de diagnóstico remoto para uso em ambientes de gravidade reduzida, como a Estação Espacial Internacional. O sistema será capaz de realizar exames de imagem, como tomografia computadorizada e ressonância magnética, e transmitir os resultados para a Terra em tempo real. O estudo também avaliará a eficácia do sistema em ambientes de microgravidade e a capacidade dos astronautas de realizar exames em si mesmos.",
+    "country": "BR",
+    "status": "Intacto",
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": []
   },
   {
     "id": 16,
-    "name": "Projeto de Engenharia de Satélites",
-    "description": "Desenvolver satélites e sistemas de comunicação para uso espacial",
-    "country": "SE",
-    "status": "Intacto",
-    "imageUrl": "https://source.unsplash.com/random/300x200"
+    "name": "Observação de exoplanetas",
+    "description": "Este projeto visa observar exoplanetas utilizando o telescópio instalado na Estação Espacial Internacional (ISS) e estudar suas propriedades físicas, tais como massa, tamanho, densidade e atmosfera. A observação de exoplanetas pode ajudar a entender melhor como os planetas se formam e evoluem, além de buscar por sinais de vida fora do sistema solar.",
+    "country": "IN",
+    "status": "Avariado",
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": ["Telescópio", "Câmera", "Computador"]
   },
   {
     "id": 17,
-    "name": "Projeto de Agricultura Espacial",
-    "description": "Estudar técnicas de cultivo de alimentos em ambientes de microgravidade",
+    "name": "Estudos de Oxidação e Combustão em Microgravidade",
+    "description": "Este projeto tem como objetivo estudar os efeitos da microgravidade na oxidação e combustão de compostos químicos. A pesquisa visa entender melhor como os processos de combustão ocorrem em ambientes de baixa gravidade, como a ISS, para desenvolver tecnologias mais eficientes e seguras para combustíveis e processos de combustão.",
     "country": "PL",
-    "status": "Danificado",
-    "imageUrl": "https://source.unsplash.com/random/300x200"
+    "status": "Intacto",
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": []
   },
   {
     "id": 18,
-    "name": "Projeto de Geologia Lunar",
-    "description": "Analisar amostras lunares e estudar a geologia da superfície da Lua",
+    "name": "Síntese de Novos Materiais em Microgravidade",
+    "description": "Este projeto tem como objetivo sintetizar novos materiais em ambiente de microgravidade, aproveitando a ausência de sedimentação e convecção natural para obter materiais mais homogêneos e com propriedades únicas. A pesquisa pode levar ao desenvolvimento de novos materiais com aplicações em eletrônica, medicina, energia e outras áreas.",
     "country": "CN",
     "status": "Intacto",
-    "imageUrl": "https://source.unsplash.com/random/300x200"
+    "imageUrl": "https://source.unsplash.com/random/300x200",
+    "objects": []
   }
 ]

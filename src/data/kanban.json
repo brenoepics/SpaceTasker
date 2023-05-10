@@ -1,123 +1,60 @@
 [
   {
     "id": 1,
-    "title": "To Do",
+    "title": "Pendências",
     "tasks": [
       {
         "id": 32,
-        "name": "Change charts javascript",
-        "description": "In _variables.scss on line 672 you define $table_variants. Each instance of \"color-level\" needs to be changed to \"shift-color\".",
+        "name": "Passo 5",
+        "description": "Reiniciar o experimento e retomar a coleta de dados.",
         "completed": false,
         "daysLeft": 5,
-        "members": [
-          {
-            "id": 1,
-            "name": "Bonnie Green",
-            "avatar": "bonnie-green.png"
-          },
-          {
-            "id": 2,
-            "name": "Roberta Casas",
-            "avatar": "roberta-casas.png"
-          },
-          {
-            "id": 3,
-            "name": "Michael Gough",
-            "avatar": "michael-gough.png"
-          }
-        ]
+        "members": []
       },
       {
         "id": 23,
-        "name": "Change homepage",
-        "description": "Change homepage for Volt Dashboard.",
+        "name": "Passo 4",
+        "description": "Calibrar o detector para garantir a precisão dos dados coletados.",
         "completed": false,
         "daysLeft": 22,
-        "attachment": "/images/kanban/task-3.jpg",
-        "members": [
-          {
-            "id": 1,
-            "name": "Bonnie Green",
-            "avatar": "bonnie-green.png"
-          },
-          {
-            "id": 2,
-            "name": "Roberta Casas",
-            "avatar": "roberta-casas.png"
-          },
-          {
-            "id": 3,
-            "name": "Michael Gough",
-            "avatar": "michael-gough.png"
-          }
-        ]
+        "members": []
       }
     ]
   },
   {
     "id": 2,
-    "title": "In Progress",
+    "title": "Em progresso",
     "tasks": [
       {
         "id": 76,
-        "name": "Redesign tables card",
-        "description": "In _variables.scss on line 672 you define $table_variants. Each instance of \"color-level\" needs to be changed to \"shift-color\".",
+        "name": "Passo 3",
+        "description": "Executar testes de diagnóstico para garantir que o detector esteja funcionando corretamente.",
         "completed": false,
-        "daysLeft": 9,
-        "attachment": "/images/kanban/task-1.jpg",
-        "members": [
-          {
-            "id": 1,
-            "name": "Bonnie Green",
-            "avatar": "bonnie-green.png"
-          },
-          {
-            "id": 2,
-            "name": "Roberta Casas",
-            "avatar": "roberta-casas.png"
-          },
-          {
-            "id": 3,
-            "name": "Michael Gough",
-            "avatar": "michael-gough.png"
-          }
-        ]
+        "daysLeft": 2,
+        "members": []
       }
     ]
   },
   {
     "id": 3,
-    "title": "Done",
+    "title": "Feito",
     "tasks": [
       {
         "id": 34,
-        "name": "Create Javascript elements",
-        "description": "In _variables.scss on line 672 you define $table_variants. Each instance of \"color-level\" needs to be changed to \"shift-color\".",
+        "name": "Passo 1",
+        "description": "Verificar o estado do experimento e identificar a causa da falha.",
         "completed": true,
         "daysLeft": 0,
-        "members": [
-          {
-            "id": 1,
-            "name": "Bonnie Green",
-            "avatar": "bonnie-green.png"
-          },
-          {
-            "id": 2,
-            "name": "Roberta Casas",
-            "avatar": "roberta-casas.png"
-          },
-          {
-            "id": 3,
-            "name": "Michael Gough",
-            "avatar": "michael-gough.png"
-          }
-        ]
+        "members": []
+      },
+      {
+        "id": 34,
+        "name": "Passo 2",
+        "description": "Substituir quaisquer componentes danificados.",
+        "completed": true,
+        "daysLeft": 0,
+        "members": []
       }
     ]
-  },
-  {
-    "id": 4,
-    "title": "",
-    "tasks": []
   }
 ]

@@ -1,8 +1,10 @@
-import { Card, Pagination, Button, TextInput } from "flowbite-react";
+import { Card, Pagination, Button } from "flowbite-react";
 import { useState, useEffect, FC } from "react";
 import NavbarSidebarLayout from "../layouts/navbar-sidebar";
 import ReactCountryFlag from "react-country-flag";
 import projects from "../data/projects.json";
+import Project from "../types/types";
+import { useNavigate, useParams } from "react-router";
 
 const ProjectsPage: FC = function () {
   return (
@@ -14,16 +16,20 @@ const ProjectsPage: FC = function () {
   );
 };
 
+export type ProjectParams = {
+  searchText: string;
+};
+
 const ProjectsList: FC = function () {
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(true);
   const [projectList, setProjectList] = useState<Project[]>([]);
-
+  const { searchText } = useParams<ProjectParams>();
   const onPageChange = (page: number) => setCurrentPage(page);
 
   const calculateColumns = (screenWidth: number): number => {
     if (screenWidth >= 1280) {
-      return 4;
+      return 5;
     } else if (screenWidth >= 1024) {
       return 3;
     } else if (screenWidth >= 768) {
@@ -39,7 +45,13 @@ const ProjectsList: FC = function () {
   useEffect(() => {
     window.addEventListener("resize", handleResize);
     setTimeout(() => {
-      setProjectList(projects);
+      var _projects: Project[] = [...projects];
+      if (searchText !== undefined) {
+        _projects = _projects.filter((project) =>
+          project.name.toLowerCase().includes(searchText.toLowerCase())
+        );
+      }
+      setProjectList(_projects);
       setLoading(false);
     }, 1000);
   }, []);
@@ -63,6 +75,8 @@ const ProjectsList: FC = function () {
       </div>
       <div className="m-8 flex items-center justify-center">
         <Pagination
+          previousLabel="Anterior"
+          nextLabel="Próximo"
           currentPage={currentPage}
           onPageChange={onPageChange}
           showIcons={true}
@@ -73,15 +87,6 @@ const ProjectsList: FC = function () {
   );
 };
 
-type Project = {
-  id: number;
-  name: string;
-  description: string;
-  country: string;
-  status: string;
-  imageUrl: string;
-};
-
 type ProjectCardProps = {
   project: Project;
 };
@@ -89,16 +94,23 @@ type ProjectCardProps = {
 const ProjectCard: FC<ProjectCardProps> = function ({ project }) {
   const [isDamaged, setIsDamaged] = useState(false);
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
+
+  const handleViewMoreClick = () => {
+    navigate(`/projects/${project.id}`);
+  };
 
   useEffect(() => {
-    const image = new Image();
-    image.onload = () => setLoading(false);
-    image.src = project.imageUrl;
-  }, [project.imageUrl]);
+    if (project.status === "Avariado") setIsDamaged(true);
+  }, []);
 
   return (
     <div className="h-full">
-      <Card imgAlt={project.name} imgSrc={project.imageUrl} className="h-full">
+      <Card
+        imgAlt={project.name}
+        imgSrc={"../images/projects/" + project.id + ".png"}
+        className="h-full bg-bit-transparent"
+      >
         <div className="flex items-center justify-between">
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             {project.name}
@@ -114,19 +126,17 @@ const ProjectCard: FC<ProjectCardProps> = function ({ project }) {
             }}
             svg
           />
-          {loading ? (
-            <div className="h-40 bg-gray-200 dark:bg-gray-600"></div> // Skeleton image
-          ) : (
-            <Button
-              size={"sm"}
-              gradientMonochrome={isDamaged ? "failure" : "success"}
-              onClick={() => setIsDamaged(!isDamaged)}
-            >
-              {isDamaged ? "Avariado" : "Intacto"}
-            </Button>
-          )}
+          <Button
+            size={"sm"}
+            gradientMonochrome={isDamaged ? "failure" : "success"}
+            onClick={() => setIsDamaged(!isDamaged)}
+          >
+            {isDamaged ? "Avariado" : "Intacto"}
+          </Button>
         </p>
-        <Button gradientMonochrome="info">Ver mais</Button>
+        <Button gradientMonochrome="info" onClick={handleViewMoreClick}>
+          Ver mais
+        </Button>
       </Card>
     </div>
   );
