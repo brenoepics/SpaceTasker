@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Projeto de Biologia Espacial",
+    "description": "Investigar os efeitos da microgravidade no crescimento de plantas",
+    "country": "BR",
+    "status": "Intacto",
+    "imageUrl": "https://source.unsplash.com/random/300x200"
+  },
+  {
+    "id": 2,
+    "name": "Projeto de Física de Partículas",
+    "description": "Estudar a interação de partículas subatômicas em ambiente de microgravidade",
+    "country": "US",
+    "status": "Danificado",
+    "imageUrl": "https://source.unsplash.com/random/300x200"
+  },
+  {
+    "id": 3,
+    "name": "Projeto de Astronomia",
+    "description": "Observar e registrar eventos astronômicos a partir da ISS",
+    "country": "DE",
+    "status": "Intacto",
+    "imageUrl": "https://source.unsplash.com/random/300x200"
+  },
+  {
+    "id": 4,
+    "name": "Projeto de Medicina Espacial",
+    "description": "Investigar os efeitos da microgravidade na saúde dos astronautas",
+    "country": "JP",
+    "status": "Danificado",
+    "imageUrl": "https://source.unsplash.com/random/300x200"
+  },
+  {
+    "id": 5,
+    "name": "Projeto de Engenharia Aeroespacial",
+    "description": "Desenvolver novas tecnologias para a exploração espacial",
+    "country": "FR",
+    "status": "Intacto",
+    "imageUrl": "https://source.unsplash.com/random/300x200"
+  },
+  {
+    "id": 6,
+    "name": "Projeto de Microgravidade",
+    "description": "Realizar experimentos de física em ambiente de ausência de gravidade",
+    "country": "IT",
+    "status": "Danificado",
+    "imageUrl": "https://source.unsplash.com/random/300x200"
+  },
+  {
+    "id": 7,
+    "name": "Projeto de Geociências Espaciais",
+    "description": "Estudar a formação de rochas e minerais em condições de microgravidade",
+    "country": "CH",
+    "status": "Intacto",
+    "imageUrl": "https://source.unsplash.com/random/300x200"
+  },
+  {
+    "id": 8,
+    "name": "Projeto de Metereologia Espacial",
+    "description": "Monitorar e estudar as condições climáticas no espaço",
+    "country": "RU",
+    "status": "Danificado",
+    "imageUrl": "https://source.unsplash.com/random/300x200"
+  },
+  {
+    "id": 9,
+    "name": "Projeto de Química Espacial",
+    "description": "Investigar reações químicas em ambiente de microgravidade",
+    "country": "AU",
+    "status": "Intacto",
+    "imageUrl": "https://source.unsplash.com/random/300x200"
+  },
+  {
+    "id": 10,
+    "name": "Projeto de Estudos de Radiação",
+    "description": "Analisar os efeitos da radiação no espaço e desenvolver técnicas de proteção",
+    "country": "ES",
+    "status": "Intacto",
+    "imageUrl": "https://source.unsplash.com/random/300x200"
+  },
+  {
+    "id": 12,
+    "name": "Projeto de Tecnologia Espacial",
+    "description": "Desenvolver tecnologias avançadas para suporte à vida no espaço",
+    "country": "IN",
+    "status": "Intacto",
+    "imageUrl": "https://source.unsplash.com/random/300x200"
+  },
+  {
+    "id": 13,
+    "name": "Projeto de Ecologia Espacial",
+    "description": "Estudar a interação dos seres vivos com o ambiente espacial",
+    "country": "GB",
+    "status": "Danificado",
+    "imageUrl": "https://source.unsplash.com/random/300x200"
+  },
+  {
+    "id": 15,
+    "name": "Projeto de Estudos do Sono",
+    "description": "Analisar os padrões de sono e a qualidade do descanso dos astronautas na ISS",
+    "country": "KR",
+    "status": "Danificado",
+    "imageUrl": "https://source.unsplash.com/random/300x200"
+  },
+  {
+    "id": 16,
+    "name": "Projeto de Engenharia de Satélites",
+    "description": "Desenvolver satélites e sistemas de comunicação para uso espacial",
+    "country": "SE",
+    "status": "Intacto",
+    "imageUrl": "https://source.unsplash.com/random/300x200"
+  },
+  {
+    "id": 17,
+    "name": "Projeto de Agricultura Espacial",
+    "description": "Estudar técnicas de cultivo de alimentos em ambientes de microgravidade",
+    "country": "PL",
+    "status": "Danificado",
+    "imageUrl": "https://source.unsplash.com/random/300x200"
+  },
+  {
+    "id": 18,
+    "name": "Projeto de Geologia Lunar",
+    "description": "Analisar amostras lunares e estudar a geologia da superfície da Lua",
+    "country": "CN",
+    "status": "Intacto",
+    "imageUrl": "https://source.unsplash.com/random/300x200"
+  }
+]
