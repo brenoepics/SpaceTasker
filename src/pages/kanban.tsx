@@ -1,19 +1,10 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import type { FC } from "react";
-import { Fragment } from "react";
 import { useState } from "react";
-import NavbarSidebarLayout from "../layouts/navbar-sidebar";
 import kanbanBoards from "../data/kanban.json";
 import { ReactSortable } from "react-sortablejs";
 import { Button, Label, Modal, Textarea, TextInput } from "flowbite-react";
 import {
-  HiArrowsExpand,
-  HiClipboard,
-  HiClipboardCopy,
-  HiEye,
-  HiFolder,
-  HiPaperClip,
-  HiPencilAlt,
   HiPlus,
 } from "react-icons/hi";
 
@@ -164,8 +155,7 @@ const KanbanPage: FC = function () {
                   ))}
                 </ReactSortable>
               </div>
-              <>
-                <button
+              <button
                   onClick={() => {
                     setTboardId(board.id), setOpen(true);
                   }}
@@ -246,7 +236,6 @@ const KanbanPage: FC = function () {
                     </div>
                   </Modal.Footer>
                 </Modal>
-              </>
             </div>
           ))}
         </div>

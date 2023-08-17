@@ -30,13 +30,13 @@ const ProjectsList: FC = function () {
   const calculateColumns = (screenWidth: number): number => {
     if (screenWidth >= 1280) {
       return 5;
-    } else if (screenWidth >= 1024) {
-      return 3;
-    } else if (screenWidth >= 768) {
-      return 2;
-    } else {
-      return 1;
     }
+    
+    if (screenWidth >= 1024) {
+      return 3;
+    }
+    
+    return (screenWidth >= 768) ? 2 : 1;
   };
 
   const [columns, setColumns] = useState(calculateColumns(window.innerWidth));
@@ -45,7 +45,7 @@ const ProjectsList: FC = function () {
   useEffect(() => {
     window.addEventListener("resize", handleResize);
     setTimeout(() => {
-      var _projects: Project[] = [...projects];
+      let _projects: Project[] = [...projects];
       if (searchText !== undefined) {
         _projects = _projects.filter((project) =>
           project.name.toLowerCase().includes(searchText.toLowerCase())
@@ -62,7 +62,7 @@ const ProjectsList: FC = function () {
 
   return (
     <div className="px-4 pt-6 pb-6 bg-transparent">
-      <div className={`grid grid-cols-${columns} gap-4 bg-transparent`}>
+      <div className={`grid grid-cols-${columns} gap-4 bg-transparent`} style={{ gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))` }}>
         {loading
           ? Array.from({ length: columns * 2 }).map((_, index) => (
               <SkeletonCard key={index} />
@@ -93,7 +93,6 @@ type ProjectCardProps = {
 
 const ProjectCard: FC<ProjectCardProps> = function ({ project }) {
   const [isDamaged, setIsDamaged] = useState(false);
-  const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
 
   const handleViewMoreClick = () => {
